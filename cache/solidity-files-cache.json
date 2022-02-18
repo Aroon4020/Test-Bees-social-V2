@@ -1,0 +1,259 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1637303971061,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1639037657410,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+      "lastModificationDate": 1639037656986,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\contracts\\interface\\IAsset.sol": {
+      "lastModificationDate": 1639046772678,
+      "contentHash": "8f3a0f292589adc916723540e3c8f656",
+      "sourceName": "contracts/interface/IAsset.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.6.0"
+      ],
+      "artifacts": [
+        "IAsset"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\contracts\\swap.sol": {
+      "lastModificationDate": 1645183821961,
+      "contentHash": "91c12e65a110f592922a5887292a07fb",
+      "sourceName": "contracts/swap.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IbalancerV2.sol",
+        "./interface/IERC20.sol",
+        "./interface/IAsset.sol",
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.6 || ^0.8.0"
+      ],
+      "artifacts": [
+        "swap"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\contracts\\interface\\IbalancerV2.sol": {
+      "lastModificationDate": 1643699108820,
+      "contentHash": "f182fc0460f40fbccba6a008ed6b2f23",
+      "sourceName": "contracts/interface/IbalancerV2.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAsset.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0 || ^0.6.6"
+      ],
+      "artifacts": [
+        "Ibal"
+      ]
+    },
+    "C:\\Users\\kessa\\Desktop\\bees_Social\\contracts\\interface\\IERC20.sol": {
+      "lastModificationDate": 1639049323967,
+      "contentHash": "ffd39964e35e379e36f38efe99db3579",
+      "sourceName": "contracts/interface/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}

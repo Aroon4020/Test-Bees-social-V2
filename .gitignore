@@ -1,0 +1,10 @@
+node_modules
+secret.json
+test
+h.js
+abi.json
+artifacts
+cache
+tenderly.exe
+tenderly.yaml
+deployments
