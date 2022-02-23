@@ -7,7 +7,7 @@ async function main() {
   
     console.log("Account balance:", (await deployer.getBalance()).toString());
   
-    const balancer = await ethers.getContractFactory("swap");
+    const balancer = await ethers.getContractFactory("swap","ExchangeRouter");
     const balancerdep = await balancer.deploy();
     
     console.log("Token address:", balancerdep.address);
